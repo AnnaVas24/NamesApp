@@ -82,7 +82,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="1" green="0.92167332100806232" blue="0.99742472437415541" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="1" green="0.98710269587916488" blue="0.9940909577434961" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="ncM-ez-ELB" firstAttribute="top" secondItem="4bA-yp-FBH" secondAttribute="bottom" constant="120" id="Bhk-db-Ms9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4bA-yp-FBH" secondAttribute="trailing" constant="20" id="C8n-Gb-6Va"/>
@@ -171,7 +171,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jgV-fc-eVB"/>
-                        <color key="backgroundColor" red="1" green="0.92167332099999999" blue="0.99742472439999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="1" green="0.98710269589999999" blue="0.9940909577" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="LBd-Gn-1kD" firstAttribute="top" secondItem="jgV-fc-eVB" secondAttribute="top" constant="105" id="29a-Pd-I5R"/>
                             <constraint firstItem="fqv-AG-rht" firstAttribute="top" secondItem="l6M-NT-ufa" secondAttribute="bottom" constant="67" id="GjS-eq-hUc"/>
