@@ -11,21 +11,21 @@ class ResultViewController: UIViewController {
 
     @IBOutlet weak var namesLabel: UILabel!
     @IBOutlet weak var resultLabel: UILabel!
-    @IBOutlet weak var resultSlider: UISlider!
+    @IBOutlet weak var progressView: UIProgressView!
     
     var firstName: String!
     var secondName: String!
     
-    private var resultValue: Int!
+    // Это свойство не должно быть опциональным
+    private var resultValue = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
         resultValue = findResult()
 
         namesLabel.text = "\(firstName ?? "") and \(secondName ?? "")"
-        resultLabel.text = "\(resultValue ?? 0) %"
-       
-        resultSlider.setValue(Float(resultValue), animated: true)
+        resultLabel.text = resultValue.formatted(.percent)       
+        progressView.progress = Float(resultValue) / 100
     }
     
    
